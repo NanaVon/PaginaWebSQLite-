@@ -4,6 +4,11 @@ import sqlite3
 import datetime
 app = Flask(__name__)
 
+@app.route('/AnimeMindo')
+def AnimeMindo():
+   return render_template('AnimeMindo.html')
+
+
 @app.route('/Imagenes')
 def Imagenes():
     db = sqlite3.connect('prueba_blob.sqlite')
