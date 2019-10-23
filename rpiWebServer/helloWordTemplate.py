@@ -20,6 +20,10 @@ def Imagenes():
     return (response)
     
 @app.route("/")
+def bubos():
+   return render_template("bubos.html", title='home' )
+
+@app.route("/holaquehace")
 def hello():
    now = datetime.datetime.now()
    timeString = now.strftime("%Y-%m-%d %H:%M")

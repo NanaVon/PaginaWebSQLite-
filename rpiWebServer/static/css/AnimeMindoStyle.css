@@ -5,12 +5,12 @@ body
     width: 100%;
     
 }
-.listaH{
-    display: inline;
-    padding-left: 2px;
-    padding-right: 2px
+.imgResponsiva .num{
+    display: inline-block;
+    font-size: inherit;
 }
-
+.imgResponsiva .num {width: 50%; max-width: 225px;}
+.imgResponsiva .num {width: 50%; max-width: 225px;}
 img {
     position: relative;
     margin: auto;
